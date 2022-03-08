@@ -1,6 +1,6 @@
 Creates a win server 2019 and installs chocolatey and Google Chrome
 
-When it askes for Script URL you need to past this: https://raw.githubusercontent.com/CobraKarl/TestChoc/main/install_chrome.ps1
+When it askes for Script URL you need to paste this: https://raw.githubusercontent.com/CobraKarl/TestChoc/main/install_chrome.ps1
 can be found here: https://github.com/CobraKarl/TestChoc
 
 To create a resource group in Azure: az group create --name "Enter name" --location "Enter Location"
