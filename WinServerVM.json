@@ -163,7 +163,7 @@
                             "timestamp": 123456789
                         },
                         "protectedSettings": {
-                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', './install_chrome.ps1')]",
+                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', './install_from_choc.ps1')]",
 
                             "managedIdentity": {},
                             "fileUris": [

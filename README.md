@@ -2,7 +2,7 @@ Creates a win server 2019 and installs chocolatey and Google Chrome
 
 You could just type ./run.ps1 and follow  the instructions
 
-When it askes for Script URL you need to paste this: https://raw.githubusercontent.com/CobraKarl/TestChoc/main/install_from_Choc.ps1
+When it askes for Script URL you need to paste this: https://raw.githubusercontent.com/CobraKarl/TestChoc/main/install_from_choc.ps1
 can be found here: https://github.com/CobraKarl/TestChoc
 
 To create a resource group in Azure: az group create --name "Enter name" --location "Enter Location"
@@ -12,3 +12,5 @@ To Create VM: az group deployment create --name "EnterNameOfVm" --resource-group
 All is done in VSC and/or PS
 
 To Change name just replace MkWin with a name you prefer.
+
+If You are going to use a diffrent URL dont forget to change row 166 in WinServerVM.json file #/install_from_choc.ps1')]"#,to the same name as your URL as well.
